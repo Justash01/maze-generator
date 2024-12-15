@@ -1,0 +1,42 @@
+{
+  "format_version": 2,
+  "header": {
+    "description": "pack.description",
+    "name": "pack.name",
+    "uuid": "57018878-433e-45dc-ad90-9d7078198c01",
+    "min_engine_version": [ 1, 21, 50 ],
+    "version": [ 1, 2, 0 ]
+  },
+  "modules": [
+    {
+      "type": "data",
+      "uuid": "9dccdf75-bb4c-4206-9fcf-aaccb340fe4b",
+      "version": [ 1, 0, 0 ]
+    },
+    {
+      "type": "script",
+      "language": "javascript",
+      "uuid": "2ea58c61-3ba8-49eb-807a-d5a0b3b56322",
+      "entry": "scripts/main.js",
+      "version": [ 1, 0, 0 ]
+    }
+  ],
+  "dependencies": [
+    {
+      "module_name": "@minecraft/server",
+      "version": "1.16.0"
+    },
+    {
+      "module_name": "@minecraft/server-ui",
+      "version": "1.3.0"
+    }
+  ],
+  "metadata": {
+    "authors": [
+      "JustAsh01"
+    ],
+    "license": "MIT",
+    "url": "https://github.com/Justash01/maze-generator",
+    "product_type": "addon"
+  }
+}
